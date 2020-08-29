@@ -14,38 +14,38 @@
 
 /* Inherit colors from Plata-Lumine */
 .theme-light {
-    --background-primary: #f8f8f8;
-    --background-secondary: #f8f8f8;
-    --background-tertiary: rgba(231,231,231,1);
-    --channeltextarea-background: #e7e7e7;
+	--background-primary: #f8f8f8;
+	--background-secondary: #f8f8f8;
+	--background-tertiary: rgba(231,231,231,1);
+	--channeltextarea-background: #e7e7e7;
 	--background-mentioned: rgba(var(--plata-rgb-accent),0.05);
 	--background-mentioned-hover: rgba(var(--plata-rgb-accent),0.1);
 }
 
 /* Inherit colors from Plata-Noir */
 .theme-dark {
-    --background-primary: #1d1d1d;
-    --background-secondary: #1d1d1d;
-    --background-tertiary: rgba(8,8,8,1);
-    --deprecated-panel-background: #1d1d1d;
-    --channeltextarea-background: #080808;
+	--background-primary: #1d1d1d;
+	--background-secondary: #1d1d1d;
+	--background-tertiary: rgba(8,8,8,1);
+	--deprecated-panel-background: #1d1d1d;
+	--channeltextarea-background: #080808;
 	--background-mentioned: rgba(var(--plata-rgb-accent),0.05);
 	--background-mentioned-hover: rgba(var(--plata-rgb-accent),0.1);
 }
 
 /* 	Restyle scrollbar, as it uses static values */
 .da-scroller::-webkit-scrollbar {
-    width: 4px;
+	width: 4px;
 }
 
 .da-scroller::-webkit-scrollbar-track-piece {
-    background-color: transparent !important;
-    border: none !important;
+	background-color: transparent !important;
+	border: none !important;
 }
 
 .da-scroller::-webkit-scrollbar-thumb {
-    background-color: var(--background-tertiary) !important;
-    border: none;
+	background-color: var(--background-tertiary) !important;
+	border: none;
 }
 
 /* Color mentioned message left margin */
@@ -55,14 +55,14 @@
 
 /*	Fix friendlist redesign header using static values */
 .da-friendsTable {
-    background-color: var(--background-secondary);
-    margin-top: 0;
-    padding-top: 8px;
+	background-color: var(--background-secondary);
+	margin-top: 0;
+	padding-top: 8px;
 }
 
 /*	Add rounded corner on server header (as is on Windows) */
 .da-layers > div > div > .da-base {
-    border-radius: 10px 0 0 0;
+	border-radius: 10px 0 0 0;
 }
 
 /* Recolor various panels */
