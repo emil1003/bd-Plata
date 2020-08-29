@@ -8,41 +8,34 @@
  */
 
 :root {
-	--plata-accent: #00bcd4;
-	--plata-rgb-accent: 0,188,212;
+	--background-primary: var(--plata-primary);
+	--background-secondary: var(--plata-primary);
+	--background-tertiary: var(--plata-secondary);
+	--channeltextarea-background: var(--plata-secondary);
+
 	--background-mentioned: rgba(var(--plata-rgb-accent),0.05);
 	--background-mentioned-hover: rgba(var(--plata-rgb-accent),0.1);
+
+	--scrollbar-thin-thumb: var(--plata-secondary);
+	--scrollbar-thin-track: transparent;
+	--scrollbar-auto-thumb: var(--plata-secondary);
+	--scrollbar-auto-track: transparent;
 }
 
 /* Inherit colors from Plata-Lumine */
 .theme-light {
-	--background-primary: #f8f8f8;
-	--background-secondary: #f8f8f8;
-	--background-tertiary: rgba(231,231,231,1);
-	--channeltextarea-background: #e7e7e7;
+	--plata-primary: #f8f8f8;
+	--plata-secondary: #e7e7e7;
+	--plata-accent: #00bcd4;
+	--plata-rgb-accent: 0,188,212;
 }
 
 /* Inherit colors from Plata-Noir */
 .theme-dark {
-	--background-primary: #1d1d1d;
-	--background-secondary: #1d1d1d;
-	--background-tertiary: rgba(8,8,8,1);
-	--channeltextarea-background: #080808;
-}
-
-/* 	Restyle scrollbar, as it uses static values */
-.da-scroller::-webkit-scrollbar {
-	width: 4px;
-}
-
-.da-scroller::-webkit-scrollbar-track-piece {
-	background-color: transparent !important;
-	border: none !important;
-}
-
-.da-scroller::-webkit-scrollbar-thumb {
-	background-color: var(--background-tertiary) !important;
-	border: none;
+	--plata-primary: #1d1d1d;
+	--plata-secondary: #080808;
+	--plata-accent: #00bcd4;
+	--plata-rgb-accent: 0,188,212;
 }
 
 /* Color mentioned message left margin */
