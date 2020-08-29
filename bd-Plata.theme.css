@@ -10,6 +10,8 @@
 :root {
 	--plata-accent: #00bcd4;
 	--plata-rgb-accent: 0,188,212;
+	--background-mentioned: rgba(var(--plata-rgb-accent),0.05);
+	--background-mentioned-hover: rgba(var(--plata-rgb-accent),0.1);
 }
 
 /* Inherit colors from Plata-Lumine */
@@ -18,8 +20,6 @@
 	--background-secondary: #f8f8f8;
 	--background-tertiary: rgba(231,231,231,1);
 	--channeltextarea-background: #e7e7e7;
-	--background-mentioned: rgba(var(--plata-rgb-accent),0.05);
-	--background-mentioned-hover: rgba(var(--plata-rgb-accent),0.1);
 }
 
 /* Inherit colors from Plata-Noir */
@@ -27,10 +27,7 @@
 	--background-primary: #1d1d1d;
 	--background-secondary: #1d1d1d;
 	--background-tertiary: rgba(8,8,8,1);
-	--deprecated-panel-background: #1d1d1d;
 	--channeltextarea-background: #080808;
-	--background-mentioned: rgba(var(--plata-rgb-accent),0.05);
-	--background-mentioned-hover: rgba(var(--plata-rgb-accent),0.1);
 }
 
 /* 	Restyle scrollbar, as it uses static values */
