@@ -7,6 +7,7 @@
  * Includes support for light and dark (Lumine/Noir) variants.
  */
 
+/* Set base variables */
 :root {
 	--background-primary: var(--plata-primary);
 	--background-secondary: var(--plata-primary);
@@ -43,14 +44,14 @@
 	background: var(--plata-accent) !important;
 }
 
-/*	Fix friendlist redesign header using static values */
+/* Fix friendlist redesign header using static values */
 .da-friendsTable {
 	background-color: var(--background-secondary);
 	margin-top: 0;
 	padding-top: 8px;
 }
 
-/*	Add rounded corner on server header (as is on Windows) */
+/* Add rounded corner on server header (as is on Windows) */
 .da-layers > div > div > .da-base {
 	border-radius: 10px 0 0 0;
 }
@@ -68,4 +69,3 @@
 .da-messageGroupWrapper {
 	border: none;
 }
-
