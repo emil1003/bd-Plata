@@ -27,16 +27,16 @@
 .theme-light {
 	--plata-primary: #f8f8f8;
 	--plata-secondary: #e7e7e7;
-	--plata-accent: #00bcd4;
-	--plata-rgb-accent: 0,188,212;
+	--plata-accent: #8ab4f8;
+	--plata-rgb-accent: 138, 180, 248;
 }
 
 /* Inherit colors from Plata-Noir */
 .theme-dark {
 	--plata-primary: #1d1d1d;
 	--plata-secondary: #080808;
-	--plata-accent: #00bcd4;
-	--plata-rgb-accent: 0,188,212;
+	--plata-accent: #8ab4f8;
+	--plata-rgb-accent: 138, 180, 248;
 }
 
 /* Color mentioned message left margin */
