@@ -56,6 +56,16 @@
 	border-radius: 10px 0 0 0;
 }
 
+/* Recolor servers list when unfocused... */
+nav > ul > .da-scroller {
+	background: var(--background-primary);
+}
+
+/* ..and give it back when focused (:not, y u no work)*/
+.app-focused nav > ul > .da-scroller {
+	background: var(--background-tertiary);
+}
+
 /* Recolor various panels */
 .da-sidebar .da-panels {
 	background-color: var(--background-secondary);
