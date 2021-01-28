@@ -52,7 +52,7 @@
 }
 
 /* Add rounded corner on server header (as is on Windows) */
-.da-layers > div > div > .da-base {
+.app-focused .da-layers > div > div > .da-base {
 	border-radius: 10px 0 0 0;
 }
 
