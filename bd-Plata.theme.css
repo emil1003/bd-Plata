@@ -2,7 +2,7 @@
  * @name bd-Plata
  * @author emil1003
  * @source https://github.com/emil1003/bd-Plata.git
- * @version 0.2.1
+ * @version 0.3.0
  * @description A theme to match the Plata GTK theme.
  * Includes support for light and dark (Lumine/Noir) variants.
  */
@@ -11,6 +11,7 @@
 :root {
 	--background-primary: var(--plata-primary);
 	--background-secondary: var(--plata-primary);
+	--background-secondary-alt: var(--plata-primary);
 	--background-tertiary: var(--plata-secondary);
 	--channeltextarea-background: var(--plata-secondary);
 
@@ -40,42 +41,31 @@
 }
 
 /* Color mentioned message left margin */
-.da-message.da-mentioned:before {
+.message-2qnXI6.mentioned-xhSam7:before {
 	background: var(--plata-accent) !important;
 }
 
 /* Fix friendlist redesign header using static values */
-.da-friendsTable {
-	background-color: var(--background-secondary);
-	margin-top: 0;
-	padding-top: 8px;
+.container-1D34oG {
+	background-color: var(--background-secondary) !important;
 }
 
 /* Add rounded corner on server header (as is on Windows) */
-.app-focused .da-layers > div > div > .da-base {
+.app-focused .layers-3q14ss > div > div > .base-3dtUhz {
 	border-radius: 10px 0 0 0;
 }
 
 /* Recolor servers list when unfocused... */
-nav > ul > .da-scroller {
+nav > ul > .scroller-1Bvpku {
 	background: var(--background-primary);
 }
 
 /* ..and give it back when focused (:not, y u no work)*/
-.app-focused nav > ul > .da-scroller {
+.app-focused nav > ul > .scroller-1Bvpku {
 	background: var(--background-tertiary);
 }
 
-/* Recolor various panels */
-.da-sidebar .da-panels {
-	background-color: var(--background-secondary);
-}
-
-.da-content > .da-container {
-	background-color: var(--background-primary);
-}
-
 /* Remove messageGroup border in pinned messages */
-.da-messageGroupWrapper {
+.messageGroupWrapper-o-Zw7G {
 	border: none;
 }
