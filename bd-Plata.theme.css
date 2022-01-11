@@ -41,27 +41,27 @@
 }
 
 /* Color mentioned message left margin */
-.message-2qnXI6.mentioned-xhSam7:before {
+.mentioned-Tre-dv:before {
 	background: var(--plata-accent) !important;
 }
 
 /* Fix friendlist redesign header using static values */
-.container-1D34oG {
+.container-2cd8Mz {
 	background-color: var(--background-secondary) !important;
 }
 
 /* Add rounded corner on server header (as is on Windows) */
-.app-focused .layers-3q14ss > div > div > .base-3dtUhz {
+.app-focused .layers-OrUESM > div > div > .base-2jDfDU {
 	border-radius: 10px 0 0 0;
 }
 
 /* Recolor servers list when unfocused... */
-nav > ul > .scroller-1Bvpku {
+nav > ul > .scroller-3X7KbA {
 	background: var(--background-primary);
 }
 
 /* ..and give it back when focused (:not, y u no work)*/
-.app-focused nav > ul > .scroller-1Bvpku {
+.app-focused nav > ul > .scroller-3X7KbA {
 	background: var(--background-tertiary);
 }
 
