@@ -13,6 +13,7 @@
 	--background-secondary: var(--plata-primary);
 	--background-secondary-alt: var(--plata-primary);
 	--background-tertiary: var(--plata-secondary);
+	--background-floating: var(--background-tertiary);
 	--channeltextarea-background: var(--plata-secondary);
 
 	--background-mentioned: rgba(var(--plata-rgb-accent),0.05);
@@ -38,6 +39,15 @@
 	--plata-secondary: #080808;
 	--plata-accent: #8ab4f8;
 	--plata-rgb-accent: 138, 180, 248;
+}
+
+/* Recolor dialog boxes */
+.root-g14mjS {
+	background-color: var(--background-primary) !important;
+}
+
+.footer-31IekZ {
+	background-color: var(--background-secondary) !important;
 }
 
 /* Color mentioned message left margin */
