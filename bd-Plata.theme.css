@@ -55,9 +55,12 @@
 	background: var(--plata-accent) !important;
 }
 
-/* Fix friendlist redesign header using static values */
+/* Fix friendlist redesign content/header using static values */
 .container-2cd8Mz {
 	background-color: var(--background-secondary) !important;
+}
+.container-ZMc96U, .children-3xh0VB:after {
+	background: var(--plata-primary) !important;
 }
 
 /* Add rounded corner on server header (as is on Windows) */
